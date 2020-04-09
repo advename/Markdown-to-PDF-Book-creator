@@ -1,0 +1,16 @@
+
+---
+title: Programming Book
+rights: MIT License
+lang: MIT License
+tags: [book, birds, sky]
+abstract: |
+ My personal book
+mainfont: Source Sans Pro
+
+# Filter preferences:
+# - pandoc-crossref
+linkReferences: true
+
+---
+

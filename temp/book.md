@@ -1,0 +1,117 @@
+
+
+\newpage
+# 0.0 Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Lacus viverra vitae congue eu. Magna eget est lorem ipsum dolor sit amet consectetur. At varius vel pharetra vel turpis nunc. Sit amet commodo nulla facilisi. Dolor magna eget est lorem ipsum dolor sit amet. In tellus integer feugiat scelerisque. Tincidunt tortor aliquam nulla facilisi cras. Libero nunc consequat interdum varius sit amet mattis vulputate. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Dictum sit amet justo donec. Vestibulum lorem sed risus ultricies tristique nulla. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+
+## Why this and that
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Lacus viverra vitae congue eu. Magna eget est lorem ipsum dolor sit amet consectetur. At varius vel pharetra vel turpis nunc. Sit amet commodo nulla facilisi. Dolor magna eget est lorem ipsum dolor sit amet. In tellus integer feugiat scelerisque. Tincidunt tortor aliquam nulla facilisi cras. Libero nunc consequat interdum varius sit amet mattis vulputate. [Google website](https://www.google.com) Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Dictum sit amet justo donec. Vestibulum lorem sed risus ultricies tristique nulla. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+
+Dolor purus non enim praesent elementum facilisis leo. At tempor commodo ullamcorper a lacus vestibulum sed. Vestibulum lectus mauris ultrices eros in cursus. Gravida cum sociis natoque penatibus et magnis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Vestibulum sed arcu non odio euismod lacinia at quis. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Odio morbi quis commodo odio aenean sed. Neque laoreet suspendisse interdum consectetur libero. Semper risus in hendrerit gravida. Risus nec feugiat in fermentum posuere. Blandit libero volutpat sed cras ornare arcu dui. Dictum at tempor commodo ullamcorper a lacus. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Aenean vel elit scelerisque mauris pellentesque. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Aenean euismod elementum nisi quis eleifend quam adipiscing. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Purus sit amet volutpat consequat mauris nunc congue nisi vitae.
+
+
+### Some code
+Vitae turpis massa sed elementum tempus. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Et malesuada fames ac turpis egestas sed tempus urna et. Nunc eget lorem dolor sed. Diam maecenas ultricies mi eget mauris. Faucibus turpis in eu mi bibendum neque. Tincidunt augue interdum velit euismod. Turpis egestas sed tempus urna et. Volutpat odio facilisis mauris sit. Tortor at risus viverra adipiscing at in tellus integer feugiat. Quam id leo in vitae turpis massa. Sed pulvinar proin gravida hendrerit lectus. Erat velit scelerisque in dictum non consectetur a erat nam. Semper feugiat nibh sed pulvinar.
+
+__<fname>/test.js</fname>__
+```js
+console.log("THIS")
+function hello(str){
+	let whatsup = str;
+}
+```
+
+
+### What you need
+Make sure that you have the following tools installed on your computer:
+
+- first one
+
+- second one
+
+- third one
+
+
+## The project
+We are going to build a todo system with users and todo's. 
+You should be able to:
+
+- request all users from the REST API
+
+- request all todos from the REST API
+
+- request specific todos and the related user from the REST API
+I.e., we have two tables with relationships between them.
+
+- send a POST request with user input to create a new user
+
+\newpage
+# 2.0 How to make cookies
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Lacus viverra vitae congue eu. Magna eget est lorem ipsum dolor sit amet consectetur. At varius vel.
+
+__<fname>/test.py</fname>__
+```py
+str = "this is string example....wow!!!";
+print str.startswith( 'this' )
+print str.startswith( 'is', 2, 4 )
+print str.startswith( 'this', 2, 4 )
+```
+
+## First fly like a bird
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Lacus viverra vitae congue eu. Magna eget est lorem ipsum dolor sit amet consectetur. At varius vel pharetra vel turpis nunc. Sit amet commodo nulla facilisi. Dolor magna eget est lorem ipsum dolor sit amet. In tellus integer feugiat scelerisque. Tincidunt tortor aliquam nulla facilisi cras. Libero nunc consequat interdum varius sit amet mattis vulputate. [Google website](https://www.google.com) Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Dictum sit amet justo donec. Vestibulum lorem sed risus ultricies tristique nulla. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+
+Dolor purus non enim praesent elementum facilisis leo. At tempor commodo ullamcorper a lacus vestibulum sed. Vestibulum lectus mauris ultrices eros in cursus. Gravida cum sociis natoque penatibus et magnis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Vestibulum sed arcu non odio euismod lacinia at quis. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Odio morbi quis commodo odio aenean sed. Neque laoreet suspendisse interdum consectetur libero. Semper risus in hendrerit gravida. Risus nec feugiat in fermentum posuere. Blandit libero volutpat sed cras ornare arcu dui. Dictum at tempor commodo ullamcorper a lacus. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Aenean vel elit scelerisque mauris pellentesque. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Aenean euismod elementum nisi quis eleifend quam adipiscing. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Purus sit amet volutpat consequat mauris nunc congue nisi vitae.
+
+<div class="belongs-together">
+
+![](https://i.imgur.com/pF2w7Kg.png)
+A mountain with snow
+
+</div>
+
+
+### Some code
+Vitae turpis massa sed elementum tempus. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Et malesuada fames ac turpis egestas sed tempus urna et. Nunc eget lorem dolor sed. Diam maecenas ultricies mi eget mauris. Faucibus turpis in eu mi bibendum neque. Tincidunt augue interdum velit euismod. Turpis egestas sed tempus urna et. Volutpat odio facilisis mauris sit. Tortor at risus viverra adipiscing at in tellus integer feugiat. Quam id leo in vitae turpis massa. Sed pulvinar proin gravida hendrerit lectus. Erat velit scelerisque in dictum non consectetur a erat nam. Semper feugiat nibh sed pulvinar.
+
+__<fname>/test.py</fname>__
+```py
+str = "this is string example....wow!!!";
+print str.startswith( 'this' )
+print str.startswith( 'is', 2, 4 )
+print str.startswith( 'this', 2, 4 )
+```
+
+
+### What you need
+Make sure that you have the following tools installed on your computer:
+
+- first one
+
+- second one
+
+- third one
+
+
+## The project
+We are going to build a todo system with users and todo's. 
+You should be able to:
+
+- request all users from the REST API
+
+- request all todos from the REST API
+
+- request specific todos and the related user from the REST API
+I.e., we have two tables with relationships between them.
+
+- send a POST request with user input to create a new user
+
+\newpage
+# Appendix
+
+## Additional stuff
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Lacus viverra vitae congue eu. Magna eget est lorem ipsum dolor sit amet consectetur. At varius vel pharetra vel turpis nunc. Sit amet commodo nulla facilisi. Dolor magna eget est lorem ipsum dolor sit amet. In tellus integer feugiat scelerisque. Tincidunt tortor aliquam nulla facilisi cras. Libero nunc consequat interdum varius sit amet mattis vulputate. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Dictum sit amet justo donec. Vestibulum lorem sed risus ultricies tristique nulla. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+
+Dolor purus non enim praesent elementum facilisis leo. At tempor commodo ullamcorper a lacus vestibulum sed. Vestibulum lectus mauris ultrices eros in cursus. Gravida cum sociis natoque penatibus et magnis. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Vestibulum sed arcu non odio euismod lacinia at quis. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Odio morbi quis commodo odio aenean sed. Neque laoreet suspendisse interdum consectetur libero. Semper risus in hendrerit gravida. Risus nec feugiat in fermentum posuere. Blandit libero volutpat sed cras ornare arcu dui. Dictum at tempor commodo ullamcorper a lacus. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Aenean vel elit scelerisque mauris pellentesque. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Aenean euismod elementum nisi quis eleifend quam adipiscing. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Purus sit amet volutpat consequat mauris nunc congue nisi vitae.
+
+Vitae turpis massa sed elementum tempus. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Et malesuada fames ac turpis egestas sed tempus urna et. Nunc eget lorem dolor sed. Diam maecenas ultricies mi eget mauris. Faucibus turpis in eu mi bibendum neque. Tincidunt augue interdum velit euismod. Turpis egestas sed tempus urna et. Volutpat odio facilisis mauris sit. Tortor at risus viverra adipiscing at in tellus integer feugiat. Quam id leo in vitae turpis massa. Sed pulvinar proin gravida hendrerit lectus. Erat velit scelerisque in dictum non consectetur a erat nam. Semper feugiat nibh sed pulvinar. Risus nullam eget felis eget nunc lobortis mattis. Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Eget arcu dictum varius duis at consectetur lorem donec massa.
