@@ -2,6 +2,8 @@
 Converts a bunch of markdown files into a book looking pdf.
 This creator is made for writers who wish to publish **programming** books but can be used for other purposes.
 
+You can see the results by inspecting the files inside **/markdown_files** and **/cover** directory and the final result, the **book.pdf** file in the root.
+
 ## Features
 
 - Use css files to style your book
