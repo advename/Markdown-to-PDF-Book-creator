@@ -46,3 +46,4 @@ fnameBlockFixer();
 // }
 
 // fnameBlockFixer();
+Prism.highlightAll();

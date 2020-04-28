@@ -18,6 +18,7 @@ with open(f'{workdir}/../config.py', 'r', encoding='utf-8') as inf:
 helpers_dir = f"{workdir}/../helpers"
 markdown_files_dir = f"{workdir}/../markdown_files"
 temp_dir = f"{workdir}/../temp"
+cover_dir = f"{workdir}/../cover"
 
 book_name_md = "book.md"
 book_name_html = "book.html"
@@ -31,9 +32,14 @@ if os.path.exists(f"{temp_dir}/{book_name_pdf}"):
 
 options = config['html-to-pdf-options']
 
+# Create pdf
+toc = {
+'xsl-style-sheet': f'{helpers_dir}//default-toc.xsl'
+}
+
 pdfkit.from_file(f"{temp_dir}/{book_name_html}",
                  f"{temp_dir}//{book_name_pdf}",
-                 options=options)
+                 options=options, toc=toc)
 
 # Delete temp book.md
 # if os.path.exists(book_name_md):

@@ -32,7 +32,7 @@ if not config['disable-back-cover-page']:
 # Combine pdfs
 merger = PdfFileMerger()
 for pdf in pdfs:
-    merger.append(pdf)
+    merger.append(pdf,import_bookmarks=False)
 
 # Delete previous result book
 if os.path.exists(final_book):

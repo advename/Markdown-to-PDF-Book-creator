@@ -4,6 +4,8 @@ This creator is made for writers who wish to publish **programming** books but c
 
 You can see the results by inspecting the files inside **/markdown_files** and **/cover** directory and the final result, the **book.pdf** file in the root.
 
+**Because of a current bug**, make sure that the folder this repository is saved in, and all its parents directories DO NOT CONTAIN SPACES. Else the create_book.py file fails.
+
 ## Features
 
 - Use css files to style your book

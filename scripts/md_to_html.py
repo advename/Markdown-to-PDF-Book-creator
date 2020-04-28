@@ -25,7 +25,7 @@ metadata_file = f"{workdir}/../metadata.yaml"
 jquery_url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
 
 # Add javascript files
-javascript_files = ['prism.js', 'fname_block_fixer.js']
+javascript_files = ['prism.js', 'fname_block_fixer.js', 'general_script.js']
 javascript = f"<script src='{jquery_url}'></script>"  # needs to start with jQUery
 for file in javascript_files:
     javascript += f"<script src='../helpers/{file}'></script>"
@@ -33,11 +33,21 @@ for file in javascript_files:
 if os.path.exists(f"{temp_dir}/{book_name_md}"):
     os.remove(f"{temp_dir}/{book_name_md}")
 
+#combine only retrieved markdown files.
 markdown_files = [
     os.path.join(root, name)
     for root, dirs, files in os.walk(f"{markdown_files_dir}") for name in files
-    if name.endswith((".md"))
+    if name.endswith(".md")
 ]
+
+
+#put append and source to end if they exists
+files_to_the_end = ["Appendix.md","Source.md"]
+for item in files_to_the_end:
+	for md in markdown_files:
+		if md.endswith(item):
+			markdown_files.append(markdown_files.pop(markdown_files.index(md)))
+
 
 markdown_text = "\n\n\\newpage\n"  # start with new page because of Table of contents
 
@@ -73,7 +83,7 @@ book_markdown.write(markdown_text.encode("utf8"))
 book_markdown.close()
 
 # --lua-filter=pagebreak.lua is needed to use page breaks
-command = f"pandoc {temp_dir}/{book_name_md} -s -o {temp_dir}/{book_name_html} --css=../helpers/pandoc.css -t html5 --lua-filter={helpers_dir}/pagebreak.lua {metadata_file} --table-of-contents --lua-filter={helpers_dir}/syntax_code_fix.lua --css=../helpers/prism.css "
+command = f"pandoc {temp_dir}/{book_name_md} -s -o {temp_dir}/{book_name_html} --css=../helpers/pandoc.css -t html5 --lua-filter={helpers_dir}/pagebreak.lua {metadata_file} --lua-filter={helpers_dir}/syntax_code_fix.lua --css=../helpers/prism.css"
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 

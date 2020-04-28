@@ -486,3 +486,17 @@ fname{
 img{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+blockquote > p > strong:first-child {
+	display:block;
+}
+
+blockquote{
+	border-left: 5px solid #aba9a9;
+	padding: 15px 20px;
+	color: #333;
+	margin: 25px 0px;
+	background: #f6f6f6;
+}
+
+body > header#title-block-header{display: none;}
