@@ -31,10 +31,10 @@ l.dtd"
                     span {float: right; }
                     li {list-style: none;}
 					ul {
-                    font-size: 15px;
+                    font-size: 20px;
 
 					}
-                    ul ul {font-size: 80%; }
+                    ul ul {font-size: 90%; }
                     ul {padding-left: 0em; }
                     ul ul {padding-left: 1.5em;}
                     a {text-decoration:none; color: black;}
